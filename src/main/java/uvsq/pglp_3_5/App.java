@@ -16,6 +16,7 @@ public class App
     	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     	
     	UneClasseMetier metier = new UneClasseMetier(bw);
+    	
     	try {
 			metier.uneMethodeMetier();
 			bw.flush();
