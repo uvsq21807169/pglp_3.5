@@ -17,6 +17,7 @@ public class UneClasseMetier {
 		
 		// Traitements métiers
 		
+		
 		to.write(LocalDateTime.now() + ": Fin de uneMethodeMetier"); 
 	}
 
